@@ -1,0 +1,15 @@
+devices:
+  - cpu_power: 1.5
+    tasks: 10
+
+edge_servers:
+  - id: A
+    cpu_power: 4
+    bandwidth: 50
+    base_latency: 20
+  - id: B
+    cpu_power: 5
+    bandwidth: 100
+    base_latency: 10
+
+policy: greedy
